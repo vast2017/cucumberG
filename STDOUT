@@ -1,0 +1,15 @@
+@signup_global
+Feature: Testing124
+
+  Background:                                         [90m# java/com/cucumber/Search/search.feature:4[0m
+    [32mGiven [0m[32mI open the browser and navigate to the site[0m [90m# Home_StepDef.i_open_the_browser_and_navigate_to_the_site()[0m
+    [32mAnd [0m[32mI am on the homepage[0m                          [90m# Home_StepDef.i_am_on_the_homepage()[0m
+
+  @search_splitted
+  Scenario: Logging in the user                         [90m# java/com/cucumber/Search/search.feature:9[0m
+    [32mGiven [0m[32mUser clicks the signin button[0m                 [90m# Home_StepDef.user_clicks_the_signin_button()[0m
+    [32mAnd [0m[32mUser logs into a valid account[0m                  [90m# Login_StepDef.user_logs_into_a_valid_account()[0m
+    [32mAnd [0m[32mUser handles the popup alert if it exist[0m        [90m# Login_StepDef.user_handles_the_popup_alert_if_it_exist()[0m
+    [32mWhen [0m[32mverify search for "[0m[32m[1mmovado[0m[32m" in the globalsearch[0m [90m# Search_StepDef.verify_search_for_in_the_globalsearch(String)[0m
+    [32mAnd [0m[32mUser adds this model [0m[32m[1m0606897[0m[32m to the cart[0m        [90m# Search_StepDef.user_adds_this_model_to_the_cart(int)[0m
+    [32mThen [0m[32mverify the right model is added in the cart[0m    [90m# Search_StepDef.verify_the_right_model_is_added_in_the_cart()[0m

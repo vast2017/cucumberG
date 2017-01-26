@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" name="Failed suite [run tests]" parallel="tests">
+  <listeners>
+    <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>
+  </listeners>
+  <test name="Sample Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.cucumber.cukerunner">
+        <methods>
+          <include name="run_cukes"/>
+        </methods>
+      </class> <!-- com.cucumber.cukerunner -->
+    </classes>
+  </test> <!-- Sample Test(failed) -->
+</suite> <!-- Failed suite [run tests] -->

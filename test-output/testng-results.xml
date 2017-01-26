@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: java&#x2F;com&#x2F;cucumber&#x2F;test.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: Testing124</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  I open the browser and navigate to the site (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  I am on the homepage (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Logging in the user</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  User clicks the signin button (passed : 2s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="run tests1" duration-ms="7908" started-at="2016-12-30T01:30:54Z" finished-at="2016-12-30T01:31:02Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:com.cucumber.cukerunner@78186a70]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Sample Test1" duration-ms="7908" started-at="2016-12-30T01:30:54Z" finished-at="2016-12-30T01:31:02Z">
+      <class name="com.cucumber.cukerunner">
+        <test-method status="PASS" signature="run_cukes()[pri:0, instance:com.cucumber.cukerunner@78186a70]" name="run_cukes" duration-ms="7891" started-at="2016-12-29T20:30:54Z" description="Runs Cucumber Features" finished-at="2016-12-29T20:31:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: java&#x2F;com&#x2F;cucumber&#x2F;test.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: Testing124</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  I open the browser and navigate to the site (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  I am on the homepage (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Logging in the user</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  User clicks the signin button (passed : 2s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run_cukes -->
+      </class> <!-- com.cucumber.cukerunner -->
+    </test> <!-- Sample Test1 -->
+  </suite> <!-- run tests1 -->
+</testng-results>
